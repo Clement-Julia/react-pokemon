@@ -19,31 +19,6 @@ export default function Navigation() {
 								À propos
 							</Link>
 						</li>
-						<li className='nav-item'>
-							<Link className='nav-link' to='/experience'>
-								Expériences
-							</Link>
-						</li>
-						<li className='nav-item'>
-							<Link className='nav-link' to='/formation'>
-								Formations
-							</Link>
-						</li>
-						<li className='nav-item'>
-							<Link className='nav-link' to='/passion'>
-								Passions
-							</Link>
-						</li>
-						<li className='nav-item'>
-							<Link className='nav-link' to='/competence'>
-								Compétences
-							</Link>
-						</li>
-						<li className='nav-item'>
-							<Link className='nav-link' to='/test'>
-								Test
-							</Link>
-						</li>
 					</ul>
 					<form className='d-flex'>
 						<input className='form-control me-2' type='search' placeholder='Search' aria-label='Search' />

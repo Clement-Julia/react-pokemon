@@ -19,7 +19,7 @@ body {
     Pokemon type colors
 */
 .type-normal {
-	--color: #c2c2a1;
+	--color: #a2a297;
 }
 
 .type-vol {
@@ -55,7 +55,7 @@ body {
 }
 
 .type-électrik {
-	--color: #ffd86f;
+	--color: #ffcc44;
 }
 
 .type-fée {
@@ -63,7 +63,7 @@ body {
 }
 
 .type-insecte {
-	--color: #c3ce75;
+	--color: #a8b25b;
 }
 
 .type-combat {
@@ -74,7 +74,7 @@ body {
 	--color: #609fb5;
 }
 
-.type-psychic {
+.type-psy {
 	--color: #9b7fa6;
 }
 
@@ -225,7 +225,6 @@ body {
   font-family: Gill Sans;
   font-size: 50px;
 }
-
 .titre {
 	text-transform: uppercase;
 	text-align: center;
@@ -270,11 +269,8 @@ body {
 	height: 350px;
 	/* border: solid 2px white; */
 }
-.hrPerso {
-	border-top: 2px solid white;
-	padding-top: 6px;
-}
 .cardFooter {
+	border-top: 2px solid white;
 	padding-top: 6px;
 }
 .typePokemon {

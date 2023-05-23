@@ -36,7 +36,6 @@ const CaracPokemon = () => {
                 <div className='cardImg'>
                     <img className='imgPokemon' src={lien}></img>
                 </div>
-                <div className='hrPerso'></div>
                 <div className='cardFooter'>
                     <div className='typePokemon'>{type.join(', ')}</div>
                     <div className="statsPokemon mt-3 mb-2">

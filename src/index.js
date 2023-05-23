@@ -4,6 +4,10 @@ import './style/App.css'
 import reportWebVitals from './reportWebVitals';
 import Routeur from './components/routes/Routeur'
 
+import 'bootstrap/dist/css/bootstrap.css';
+import './App.css'
+import './index.css'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

@@ -117,7 +117,7 @@
 	letter-spacing: 0.08em;
 }
 .cardPokemon {
-	/* border: solid 22px #ffe165; */
+	border: solid 22px #ffe165;
 	color: white;
 	border-radius: 25px;
 	font-family: 'Gill Sans';
@@ -172,7 +172,7 @@
 	justify-content: space-evenly;
 }
 .statsPokemon > div {
-	margin: 0px 40px 0px 40px;
+	margin: 0px 36px 0px 36px;
 }
 .vitessePokemon {
 	text-align: center;

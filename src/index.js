@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './style/App.css'
 import reportWebVitals from './reportWebVitals';
 import Routeur from './components/routes/Routeur'
 

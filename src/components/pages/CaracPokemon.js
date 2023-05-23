@@ -30,13 +30,12 @@ const CaracPokemon = () => {
         <div className='container d-flex justify-content-center my-4'>
             <div className={cardClass}>
                 <div className='cardHeader'>
-                    <div className='nomPokemon'>{nom}</div>
+                    <div className='nomPokemon me-5'>{nom}</div>
                     <div className='pv'><span className="petit me-2">PV</span>{pv}</div>
                 </div>
                 <div className='cardImg'>
                     <img className='imgPokemon' src={lien}></img>
                 </div>
-                <div className='hrPerso'></div>
                 <div className='cardFooter'>
                     <div className='typePokemon'>{type.join(', ')}</div>
                     <div className="statsPokemon mt-3 mb-2">

@@ -1,5 +1,5 @@
 import React from 'react'
-import { useParams, useSearchParams } from 'react-router-dom'
+import { Link, useParams, useSearchParams } from 'react-router-dom'
 
 import Card from '../layout/card'
 import '../../style/components/Card.css'
@@ -27,6 +27,16 @@ const Home = () => {
                     allPokemons.map((pokemon) => {
                         return <Card key={pokemon.id} pokemon={pokemon}></Card>
                     })
+
+                    // allPokemons.map((pokemon) => {
+                    //     return (
+                    //         <>
+                    //             <Link className="noDeco" key={pokemon.id} to={{ pathname: `/pokemon/${pokemon.id}` }}>
+                    //                 <Card key={pokemon.id} pokemon={pokemon}></Card>
+                    //             </Link>
+                    //         </>
+                    //     )
+                    // })
                 ) : (
                     <p></p>
                 )}

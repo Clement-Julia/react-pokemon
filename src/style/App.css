@@ -19,7 +19,7 @@ body {
     Pokemon type colors
 */
 .type-normal {
-	--color: #c2c2a1;
+	--color: #a2a297;
 }
 
 .type-vol {
@@ -55,7 +55,7 @@ body {
 }
 
 .type-électrik {
-	--color: #ffd86f;
+	--color: #ffcc44;
 }
 
 .type-fée {
@@ -63,7 +63,7 @@ body {
 }
 
 .type-insecte {
-	--color: #c3ce75;
+	--color: #a8b25b;
 }
 
 .type-combat {
@@ -74,7 +74,7 @@ body {
 	--color: #609fb5;
 }
 
-.type-psychic {
+.type-psy {
 	--color: #9b7fa6;
 }
 
@@ -224,4 +224,70 @@ body {
 .title {
   font-family: Gill Sans;
   font-size: 50px;
+}
+.titre {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 42px;
+	font-weight: 300;
+	letter-spacing: 0.08em;
+}
+.cardPokemon {
+	border: solid 22px #ffe165;
+	color: white;
+	border-radius: 25px;
+	font-family: 'Gill Sans';
+	padding-right: 16px;
+	padding-left: 16px;
+	width: 500px;
+	height: auto;
+	background: var(--color);
+}
+.cardHeader {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 6px;
+	border-bottom: solid 2px white;
+}
+.cardImg {
+	display: flex;
+	justify-content: center;
+}
+.nomPokemon {
+	font-size: 36px;
+	margin-left: 32px;
+}
+.petit {
+	font-size: 16px;
+}
+.pv {
+	font-size: 36px;
+	margin-right: 32px;
+}
+.imgPokemon {
+	width: 350px;
+	height: 350px;
+	/* border: solid 2px white; */
+}
+.cardFooter {
+	border-top: 2px solid white;
+	padding-top: 6px;
+}
+.typePokemon {
+	display: flex;
+	justify-content: center;
+	font-size: 28px;
+}
+.statsPokemon {
+	display: flex;
+	font-size: 24px;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.statsPokemon > div {
+	margin: 0px 36px 0px 36px;
+}
+.vitessePokemon {
+	text-align: center;
+	font-size: 24px;
 }

@@ -1,38 +1,176 @@
 .App {
-  text-align: center;
+	text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 40vmin;
+	pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
 
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.type-normal {
+	--color: #a2a297;
+}
+
+.type-vol {
+	--color: #bab0d5;
+}
+
+.type-fantôme {
+	--color: #735797;
+}
+
+.type-ténébre {
+	--color: #333;
+}
+
+.type-acier {
+	--color: #ccccde;
+}
+
+.type-sol {
+	--color: #b1736c;
+}
+
+.type-poison {
+	--color: #7c538c;
+}
+
+.type-plante {
+	--color: #48d0b0;
+}
+
+.type-feu {
+	--color: #fb6c6c;
+}
+
+.type-électrik {
+	--color: #ffd86f;
+}
+
+.type-fée {
+	--color: #f469a9;
+}
+
+.type-insecte {
+	--color: #a8b25b;
+}
+
+.type-combat {
+	--color: #d6b591;
+}
+
+.type-eau {
+	--color: #609fb5;
+}
+
+.type-psy {
+	--color: #9b7fa6;
+}
+
+.type-glace {
+	--color: #7fccec;
+}
+
+.type-rock {
+	--color: #a6aab6;
+}
+
+.type-dragon {
+	--color: #f9be00;
+}
+
+.titre {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 300;
+    letter-spacing: 0.08em;
+}
+.cardPokemon {
+	/* border: solid 22px #ffe165; */
+	color: white;
+	border-radius: 25px;
+	font-family: 'Gill Sans';
+	padding-right: 16px;
+	padding-left: 16px;
+	width: 500px;
+	height: auto;
+	background: var(--color);
+}
+.cardHeader {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 6px;
+	border-bottom: solid 2px white;
+}
+.cardImg {
+	display: flex;
+	justify-content: center;
+}
+.nomPokemon {
+	font-size: 36px;
+	margin-left: 32px;
+}
+.petit {
+	font-size: 16px;
+}
+.pv {
+	font-size: 36px;
+	margin-right: 32px;
+}
+.imgPokemon {
+    width: 350px;
+    height: 350px;
+	/* border: solid 2px white; */
+}
+.typePokemon {
+	display: flex;
+	justify-content: center;
+	font-size: 28px;
+	margin-top: 10px;
+	border-top: 2px solid white;
+	padding-top: 6px;
+}
+.statsPokemon {
+	display: flex;
+	font-size: 24px;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.statsPokemon > div {
+	margin: 0px 40px 0px 40px;
+}
+.vitessePokemon {
+	text-align: center;
+	font-size: 24px;
 }

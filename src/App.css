@@ -158,9 +158,7 @@
 	padding-top: 6px;
 }
 .cardFooter {
-	margin-top: 10px;
-	/* border-radius: 40px;
-	background: #5d646a; */
+	padding-top: 6px;
 }
 .typePokemon {
 	display: flex;

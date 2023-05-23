@@ -25,7 +25,7 @@ const CaracPokemon = () => {
     var lien = "https://assets.pokemon.com/assets/cms2/img/pokedex/full/" + idPokemon + ".png";
     var backColor = "type-" + type[0].toLowerCase()
     var cardClass = "card cardPokemon p-4 " + backColor
-    
+
     return (
         <div className='container d-flex justify-content-center my-4'>
             <div className={cardClass}>
@@ -38,7 +38,7 @@ const CaracPokemon = () => {
                 </div>
                 <div className='hrPerso'></div>
                 <div className='cardFooter'>
-                    <div className='typePokemon'>Type : {type.join(', ')}</div>
+                    <div className='typePokemon'>{type.join(', ')}</div>
                     <div className="statsPokemon mt-3 mb-2">
                         <div>Attaque : {stats.attaque}</div>
                         <div>Défense : {stats.defense}</div>

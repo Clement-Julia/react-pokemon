@@ -20,10 +20,10 @@ export default function Navigation() {
 							</Link>
 						</li>
 					</ul>
-					<form className='d-flex'>
-						<input className='form-control me-2' type='search' placeholder='Search' aria-label='Search' />
+					<form className='d-flex' method='GET' action='?'>
+						<input id="search" className='form-control me-2' type='search' placeholder='Rechercher' aria-label='Rechercher' name="query" />
 						<button className='btn btn-outline-success' type='submit'>
-							Search
+							<i className="fa-solid fa-magnifying-glass"></i>
 						</button>
 					</form>
 				</div>

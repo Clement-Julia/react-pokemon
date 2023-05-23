@@ -74,7 +74,7 @@
 }
 
 .type-électrik {
-	--color: #ffd86f;
+	--color: #ffcc44;
 }
 
 .type-fée {
@@ -110,11 +110,11 @@
 }
 
 .titre {
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 42px;
-    font-weight: 300;
-    letter-spacing: 0.08em;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 42px;
+	font-weight: 300;
+	letter-spacing: 0.08em;
 }
 .cardPokemon {
 	/* border: solid 22px #ffe165; */
@@ -149,17 +149,23 @@
 	margin-right: 32px;
 }
 .imgPokemon {
-    width: 350px;
-    height: 350px;
+	width: 350px;
+	height: 350px;
 	/* border: solid 2px white; */
+}
+.hrPerso {
+	border-top: 2px solid white;
+	padding-top: 6px;
+}
+.cardFooter {
+	margin-top: 10px;
+	/* border-radius: 40px;
+	background: #5d646a; */
 }
 .typePokemon {
 	display: flex;
 	justify-content: center;
 	font-size: 28px;
-	margin-top: 10px;
-	border-top: 2px solid white;
-	padding-top: 6px;
 }
 .statsPokemon {
 	display: flex;
